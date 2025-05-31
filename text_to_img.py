@@ -99,7 +99,7 @@ def InsertFileToDatabase(username, prompt, type, result_path):
 
 async def call_text_to_image_api(prompt, model="black-forest-labs/FLUX.1-dev"):
     async with aiohttp.ClientSession() as session:
-        headers = {"Authorization": "Bearer TOKEN"}
+        headers = {"Authorization": "Bearer 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"}
         payload = {"inputs": prompt}
         async with session.post(
             f"https://api-inference.huggingface.co/models/{model}",
