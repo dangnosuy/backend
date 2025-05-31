@@ -1,0 +1,24 @@
+{
+  "instructions": [
+    {
+      "feature": "ALChemistAI",
+      "guide": "Chào bạn, tôi là chatbot hỗ trợ của **ALChemistAI**, một nền tảng sử dụng AI để tạo nội dung sáng tạo. Hiện tại, ALChemistAI cung cấp hai tính năng:\n* **Text to Speech**: Chuyển văn bản thành giọng nói tự nhiên.\n* **Text to Image**: Tạo hình ảnh từ mô tả văn bản.\nCác tính năng **Text to Video** và **Text to Music** đang được phát triển và sẽ ra mắt trong tương lai. Bạn muốn tìm hiểu cách dùng tính năng nào? Ví dụ: 'Làm thế nào để tạo ảnh?'"
+    },
+    {
+      "feature": "Text to Image",
+      "guide": "Để tạo ảnh:\n* Truy cập tab **Text to Image**.\n* Nhập mô tả (prompt), ví dụ: 'Cánh đồng lúa Việt Nam lúc hoàng hôn, phong cách anime'.\n* Chọn phong cách (anime, thực tế, thủy mặc,...) từ menu.\n* Nhấn **Generate**.\nẢnh sẽ xuất hiện trong gallery, bạn có thể xem hoặc tải xuống."
+    },
+    {
+      "feature": "Text to Speech",
+      "guide": "Để tạo giọng nói, bạn có hai cách:\n* **Cách 1: Dùng giọng có sẵn**\n  - Truy cập tab **Text to Speech**.\n  - Chọn quốc gia (Việt Nam, Mỹ,...), giới tính (nam/nữ), phong thái (vui vẻ, trang trọng,...).\n  - Nhập văn bản, ví dụ: 'Chào mừng bạn đến với ALChemistAI'.\n  - Nhấn **Generate**.\n* **Cách 2: Upload giọng mẫu**\n  - Tải lên file giọng nói (MP3).\n  - Nhập prompt mô tả, ví dụ: 'Đọc văn bản này với giọng nữ vui tươi'.\n  - Nhấn **Generate**.\nFile MP3 sẽ được tạo và có thể tải xuống."
+    },
+    {
+      "feature": "Text to Video",
+      "guide": "Tính năng **Text to Video** đang được phát triển và chưa khả dụng. Vui lòng quay lại sau để cập nhật!"
+    },
+    {
+      "feature": "Text to Music",
+      "guide": "Tính năng **Text to Music** đang được phát triển và chưa khả dụng. Vui lòng quay lại sau để cập nhật!"
+    }
+  ]
+}
