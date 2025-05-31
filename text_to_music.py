@@ -94,17 +94,7 @@ def InsertFileToDatabase(username, prompt, type, result_path):
         if connection:
             connection.close()
 
-async def call_text_to_music_api(prompt, model="facebook/musicgen-small"): # KHÔNG CÒN SỬ DỤNG ĐƯỢC
-    async with aiohttp.ClientSession() as session:
-        headers = {"Authorization": "Bearer "}
-        payload = {"inputs": prompt}
-        async with session.post(
-            f"https://router.huggingface.co/models/{model}",
-            headers=headers,
-            json=payload
-        ) as response:
-            audio_data = await response.read()
-        return audio_data
+
     
 def on_queue_update(update):
     if isinstance(update, fal_client.InProgress):
